@@ -30,7 +30,7 @@ O módulo permite analisar essa inserção por curso, perfil do egresso, territ�
   </tbody>
 </table>
 
-> **Acumulação de inserções.** Um mesmo egresso pode ser simultaneamente ocupado (Módulo 01) e empreendedor (Módulo 03). Os indicadores destes módulos devem ser lidos como dimensões complementares, não excludentes, da trajetória pós-formação.
+> **Acumulação de inserções.** Um mesmo egresso pode ser simultaneamente ocupado (módulo de Empregabilidade) e empreendedor (módulo de Empreendedorismo). Os indicadores destes módulos devem ser lidos como dimensões complementares, não excludentes, da trajetória pós-formação.
 
 ## Indicadores centrais
 
