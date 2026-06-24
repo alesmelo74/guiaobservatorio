@@ -1,5 +1,4 @@
 requests
-pdfkit
-PyPDF2
 beautifulsoup4
-google-cloud-storage
+PyPDF2
+playwright
