@@ -5,9 +5,6 @@ itens:
   - title: "Visão geral"
     icon: "fas fa-compass"
     children:
-      - title: "Apresentação"
-        href: "/documentacao/apresentacao/apresentacao"
-        icon: "fas fa-book-reader"
       - title: "Estrutura de leitura dos indicadores"
         href: "/documentacao/apresentacao/estrutura_de_leitura"
         icon: "fas fa-list-alt"
