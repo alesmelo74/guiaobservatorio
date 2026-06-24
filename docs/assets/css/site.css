@@ -72,3 +72,8 @@ p {
 .main-content h4 {
     color: #1351b4;
 }
+
+/* Remove o recuo da primeira linha nos paragrafos em destaque (blockquotes) */
+.main-content blockquote p {
+    text-indent: 0;
+}
