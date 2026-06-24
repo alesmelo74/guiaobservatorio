@@ -19,25 +19,13 @@
 <header class="br-header mb-4" id="header" data-sticky="data-sticky">
   <div class="container-lg">
     <div class="header-top">
-      <div class="header-logo"><img src={{"assets/img/pnp_horizontal.png" | relative_url }} alt="Logomarca PNP" /><span
+      <div class="header-logo"><img src={{"assets/img/barra.jpg" | relative_url }} alt="Logomarca Observatório de Egressos da RFEPCT" /><span
           class="br-divider vertical"></span>
         <div class="header-sign">{{ site.sign }}</div>
       </div>
       <div class="header-actions">
-        <div class="header-links dropdown">
-          <button class="br-button circle small" type="button" data-toggle="dropdown"
-            aria-label="Abrir Acesso Rápido"><i class="fas fa-ellipsis-v" aria-hidden="true"></i>
-          </button>
-          <div class="br-list">
-            <div class="header">
-              <div class="title">Acesso Rápido</div>
-            </div>
-            {% for link in site.data.header %}
-            <a class="br-item" href="{{ link.href }}" target="_blank">{{ link.title }}</a>
-            {% endfor %}
-          </div>
+        <div class="header-links">
           {% if site.search_engine == "google" or site.search_engine == "lunrjs" %}
-          <span class="br-divider vertical mx-half mx-sm-1"></span>
           <div class="header-search-trigger">
             <button class="br-button circle" type="button" aria-label="Abrir Busca" data-toggle="search"
               data-target=".header-search"><i class="fas fa-search" aria-hidden="true"></i>

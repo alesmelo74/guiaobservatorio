@@ -1,6 +1,9 @@
 ---
 layout: default
-title: "Referências"<!-- Parte de Navegação
+title: "Referências bibliográficas"
+---
+
+<!-- Parte de Navegação
 
 Veja qual é a o nome da próxima página e da anterior e adicione abaixo no formato:
 
@@ -8,70 +11,32 @@ Veja qual é a o nome da próxima página e da anterior e adicione abaixo no for
 [Próximo: Nome da páginas »](/documentacao/caminho_do_arquivo) 
 -->
 
-[Anterior: "Listas de termos](/documentacao/termos/termos)
-
+[Anterior: Anexos](/documentacao/anexos/anexos)
 
 # {{ page.title }}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Fontes citadas ao longo do relatório técnico.
 
-Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida. Duis ac tellus et risus vulputate vehicula. Donec lobortis risus a elit. Etiam tempor. Ut ullamcorper, ligula eu tempor congue, eros est euismod turpis, id tincidunt sapien risus a quam.
-
-### Referências
- <td colspan="2" style="text-align: justify; white-space: pre-line; line-height: 1.6;">
-
-  <p style="text-indent: 40px;">Lei 11.711/2012</p>
-        <p style="text-indent: 40px;">Lei 11.892/2008</p>
-        <p style="text-indent: 40px;">Lei 13.005/2014</p>
-        <p style="text-indent: 40px;">Lei nº 12.711, de 29 de agosto de 2012</p>
-        <p style="text-indent: 40px;">Lei nº 14.129/2021</p>
-        <p style="text-indent: 40px;">Decreto 5.840/2006</p>
-        <p style="text-indent: 40px;">Decreto nº 11.785/2023</p>
-        <p style="text-indent: 40px;">Portaria Normativa MEC nº 18, de 11 de outubro de 2012</p>
-        <p style="text-indent: 40px;">Portaria Normativa MEC nº 21, de 5 de novembro de 2012</p>
-        <p style="text-indent: 40px;">Portaria MEC nº 1.291/2013</p>
-        <p style="text-indent: 40px;">Portaria MEC nº 713/2021</p>
-        <p style="text-indent: 40px;">Portaria MEC nº 2.027, de 16 de novembro de 2023</p>
-        <p style="text-indent: 40px;">Portaria Setec/MEC nº 09/2017</p>
-
-  <p style="text-indent: 40px;">
-  Portaria Setec/MEC nº 1/2018: 
-  <a href="https://www.in.gov.br/en/web/dou/-/portaria-n-1-de-3-de-janeiro-de-2018-1590408" target="_blank">
-  https://www.in.gov.br/en/web/dou/-/portaria-n-1-de-3-de-janeiro-de-2018-1590408
-   </a>
-</p>
-  <p style="text-indent: 40px;">
-   Portaria Setec/MEC nº 50/2018: 
-  <a href="https://www.in.gov.br/en/web/dou/-/portaria-n-50-de-12-de-novembro-de-2018-50490973" target="_blank">
-   https://www.in.gov.br/en/web/dou/-/portaria-n-50-de-12-de-novembro-de-2018-50490973
-  </a>
-   </p>
-
-   <p style="text-indent: 40px;">
-  Portaria Setec/MEC nº 1162/2018: 
-  <a href="https://www.in.gov.br/en/web/dou/-/portaria-no-1-162-de-9-de-novembro-de-2018-49743560" target="_blank">
-   https://www.in.gov.br/en/web/dou/-/portaria-no-1-162-de-9-de-novembro-de-2018-49743560
-   </a>
-        </p>
-
-   <p style="text-indent: 40px;">
-  Portaria Setec/MEC nº 146/2021: 
-  <a href="https://www.in.gov.br/en/web/dou/-/portaria-n-146-de-25-de-marco-de-2021-310597431" target="_blank">
-  https://www.in.gov.br/en/web/dou/-/portaria-n-146-de-25-de-marco-de-2021-310597431
-   </a>
-   </p>
-
-  <p style="text-indent: 40px;">     
-  Portaria Setec/MEC nº 299/2022: 
- <a href="https://www.in.gov.br/en/web/dou/-/portaria-n-299-de-6-de-maio-de-2022-399680297" target="_blank">
-  https://www.in.gov.br/en/web/dou/-/portaria-n-299-de-6-de-maio-de-2022-399680297
-   </a>
-   </p>
-   <p style="text-indent: 40px;">Resolução CNE/CES nº 6/2018</p>
-  <p style="text-indent: 40px;">Acórdão 612/2021-TCU/Plenário</p>
-  <p style="text-indent: 40px;">OCDE, 2007</p>
-
-   </td>
+<table border="1" cellspacing="0" cellpadding="5">
+  <thead>
+    <tr>
+      <th style="width: 25%; text-align: center">Referência</th>
+      <th style="width: 75%; text-align: center">Descrição</th>
     </tr>
+  </thead>
+  <tbody>
+    <tr><td>CNPq · Plataforma Lattes</td><td>CONSELHO NACIONAL DE DESENVOLVIMENTO CIENTÍFICO E TECNOLÓGICO. Produção C, T &amp; A — Plataforma Lattes. Brasília: CNPq. Disponível em: <a href="http://lattes.cnpq.br/web/dgp/producao-c-t-a3" target="_blank">http://lattes.cnpq.br/web/dgp/producao-c-t-a3</a>. Acesso em: 11 maio 2026.</td></tr>
+    <tr><td>CAPES · GT Produção Técnica</td><td>COORDENAÇÃO DE APERFEIÇOAMENTO DE PESSOAL DE NÍVEL SUPERIOR. Produção Técnica: Relatório de Grupo de Trabalho. Brasília: CAPES, 2019. Disponível em: <a href="https://www.gov.br/capes/pt-br/centrais-de-conteudo/10062019-producao-tecnica-pdf" target="_blank">https://www.gov.br/capes/pt-br/centrais-de-conteudo/10062019-producao-tecnica-pdf</a>. Acesso em: 11 maio 2026.</td></tr>
+    <tr><td>Portaria CAPES nº 171/2018</td><td>BRASIL. Ministério da Educação. Portaria CAPES nº 171, de 2 de agosto de 2018. Institui o Grupo de Trabalho de Produção Técnica. Brasília: MEC/CAPES, 2018.</td></tr>
+    <tr><td>Lei de Propriedade Industrial</td><td>BRASIL. Lei nº 9.279, de 14 de maio de 1996. Regula direitos e obrigações relativos à propriedade industrial. Diário Oficial da União, Brasília, 15 maio 1996. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/leis/l9279.htm" target="_blank">https://www.planalto.gov.br/ccivil_03/leis/l9279.htm</a>.</td></tr>
+    <tr><td>Lei de Direitos Autorais</td><td>BRASIL. Lei nº 9.610, de 19 de fevereiro de 1998. Altera, atualiza e consolida a legislação sobre direitos autorais. Brasília: Diário Oficial da União, 20 fev. 1998. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/leis/l9610.htm" target="_blank">https://www.planalto.gov.br/ccivil_03/leis/l9610.htm</a>.</td></tr>
+    <tr><td>Lei de Software</td><td>BRASIL. Lei nº 9.609, de 19 de fevereiro de 1998. Dispõe sobre a proteção da propriedade intelectual de programa de computador. Brasília: Diário Oficial da União, 20 fev. 1998. Disponível em: <a href="https://www.planalto.gov.br/ccivil_03/leis/l9609.htm" target="_blank">https://www.planalto.gov.br/ccivil_03/leis/l9609.htm</a>.</td></tr>
+    <tr><td>RAIS</td><td>BRASIL. Ministério do Trabalho e Emprego. Relação Anual de Informações Sociais (RAIS). Brasília: MTE. Disponível em: <a href="https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais" target="_blank">https://www.gov.br/trabalho-e-emprego/pt-br/assuntos/estatisticas-trabalho/rais</a>.</td></tr>
+    <tr><td>CBO</td><td>BRASIL. Ministério do Trabalho e Emprego. Classificação Brasileira de Ocupações: CBO 2002. Brasília: MTE. Disponível em: <a href="https://www.ocupacoes.com.br" target="_blank">https://www.ocupacoes.com.br</a>.</td></tr>
+    <tr><td>Receita Federal · CNPJ</td><td>BRASIL. Ministério da Fazenda. Receita Federal do Brasil. Cadastro Nacional da Pessoa Jurídica (CNPJ). Brasília: RFB. Disponível em: <a href="https://www.gov.br/receitafederal/pt-br" target="_blank">https://www.gov.br/receitafederal/pt-br</a>.</td></tr>
+    <tr><td>IBGE · DTB</td><td>INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA. Divisão Territorial Brasileira 2024. Rio de Janeiro: IBGE, 2024. Disponível em: <a href="https://www.ibge.gov.br/geociencias/organizacao-do-territorio/divisao-territorial-brasileira.html" target="_blank">https://www.ibge.gov.br/geociencias/organizacao-do-territorio/divisao-territorial-brasileira.html</a>.</td></tr>
+    <tr><td>PNP</td><td>BRASIL. Ministério da Educação. Plataforma Nilo Peçanha. Brasília: MEC. Disponível em: <a href="https://www.gov.br/mec/pt-br/pnp" target="_blank">https://www.gov.br/mec/pt-br/pnp</a>.</td></tr>
   </tbody>
 </table>
+
+[Anterior: Anexos](/documentacao/anexos/anexos)
