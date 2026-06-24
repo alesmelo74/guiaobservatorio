@@ -2,7 +2,7 @@ url: "https://alesmelo74.github.io" # the base hostname & protocol for your site
 
 baseurl: "/guiaobservatorio" # the subpath of your site, e.g. /blog
 
-title: "Relatório Técnico de Indicadores · Observatório de Egressos da RFEPCT" # Nome do sistema ou plataforma
+title: "Guia Observatório de Egressos da RFEPCT - Indicadores" # Nome do sistema ou plataforma
 subtitle: "" #Órgão ou entidade
 sign: "" # Assinatura
 footer: "Documentação elaborada pela Secretaria de Educação Profissional e Tecnológica (SETEC) / Página desenvolvida pela Rede DSBR."
