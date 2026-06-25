@@ -25,10 +25,10 @@ main, .container-lg, .row { display: block !important; }
 }
 
 /* Titulos menores e mais proporcionais no PDF */
-.main-content h1 { font-size: 20px !important; line-height: 1.3 !important; margin-bottom: 0.4em !important; }
-.main-content h2 { font-size: 16px !important; }
-.main-content h3 { font-size: 13.5px !important; }
-.main-content h4 { font-size: 12.5px !important; }
+.main-content h1 { font-size: 20px !important; line-height: 1.3 !important; margin-bottom: 0.4em !important; font-weight: 700 !important; }
+.main-content h2 { font-size: 16px !important; font-weight: 700 !important; }
+.main-content h3 { font-size: 13.5px !important; font-weight: 700 !important; }
+.main-content h4 { font-size: 12.5px !important; font-weight: 700 !important; }
 
 /* Quebras de pagina mais limpas */
 .main-content h1, .main-content h2, .main-content h3, .main-content h4 {
