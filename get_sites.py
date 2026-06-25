@@ -126,6 +126,21 @@ if __name__ == "__main__":
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page()
+
+        # Bloqueia recursos externos (fontes Google/rawline, FontAwesome, VLibras):
+        # o layout vem do CSS do proprio site (mesma origem), entao recursos de
+        # outros dominios apenas atrasam e causam timeouts intermitentes no CI.
+        base_host = urlparse(base_site).netloc
+
+        def _route(route):
+            req_host = urlparse(route.request.url).netloc
+            if req_host == "" or req_host == base_host:
+                route.continue_()
+            else:
+                route.abort()
+
+        page.route("**/*", _route)
+
         for i, url in enumerate(urls):
             print(f"Processing {i+1}/{len(urls)}: {url}")
             output_pdf = os.path.join(temp_dir, f"page_{i}.pdf")
@@ -133,11 +148,12 @@ if __name__ == "__main__":
                 pdf_files.append(output_pdf)
         browser.close()
 
-    if pdf_files:
+    if pdf_files and len(pdf_files) == len(urls):
         output_file = os.path.join(temp_dir, "merged_site.pdf")
         print(f"Merging {len(pdf_files)} PDFs into {output_file}")
         merge_pdfs(pdf_files, output_file)
         print(f"Successfully created {output_file}")
     else:
-        print("No PDFs were created.")
+        print(f"ERRO: apenas {len(pdf_files)} de {len(urls)} paginas foram convertidas. "
+              "Abortando para nao publicar um PDF incompleto.")
         raise SystemExit(1)
