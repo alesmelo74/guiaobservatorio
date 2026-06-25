@@ -13,7 +13,7 @@ HIDE_CSS = """
 header.br-header, .br-skiplink, footer, #footer,
 #menuref, .site-menu, .br-menu,
 [vw], .vw-plugin-wrapper, .enabled[vw],
-nav.pagination, .share-buttons {
+nav.pagination, .social-links, .share-buttons {
     display: none !important;
 }
 main, .container-lg, .row { display: block !important; }
@@ -23,6 +23,22 @@ main, .container-lg, .row { display: block !important; }
     width: 100% !important;
     padding-left: 0 !important;
 }
+
+/* Titulos menores e mais proporcionais no PDF */
+.main-content h1 { font-size: 20px !important; line-height: 1.3 !important; margin-bottom: 0.4em !important; }
+.main-content h2 { font-size: 16px !important; }
+.main-content h3 { font-size: 13.5px !important; }
+.main-content h4 { font-size: 12.5px !important; }
+
+/* Quebras de pagina mais limpas */
+.main-content h1, .main-content h2, .main-content h3, .main-content h4 {
+    page-break-after: avoid;
+    break-after: avoid;
+}
+.main-content blockquote { page-break-inside: avoid; break-inside: avoid; }
+.main-content table { page-break-inside: auto; }
+.main-content thead { display: table-header-group; }
+.main-content tr, .main-content td { page-break-inside: avoid; break-inside: avoid; }
 """
 
 
@@ -50,15 +66,16 @@ def get_urls_from_navbar(base_site):
             seen.add(full)
             urls.append(full)
 
-    for a in menu_nav.find_all('a', class_='menu-item divider', href=True):
-        add(a['href'])
-    for folder in menu_nav.find_all('div', class_='menu-folder'):
-        ul = folder.find('ul')
-        if ul:
-            for li in ul.find_all('li'):
-                a = li.find('a', class_='menu-item', href=True)
-                if a:
-                    add(a['href'])
+    # Percorre o menu na ordem visual (ordem do documento), preservando a
+    # sequencia do menu lateral: itens de topo e pastas intercalados, comecando
+    # por Apresentacao.
+    for child in menu_nav.find_all(recursive=False):
+        classes = child.get('class') or []
+        if child.name == 'a' and 'menu-item' in classes:
+            add(child.get('href'))
+        elif child.name == 'div' and 'menu-folder' in classes:
+            for a in child.select('ul li a.menu-item'):
+                add(a.get('href'))
     return urls
 
 
